@@ -1,0 +1,5 @@
+# Force Python when Nixpacks cannot infer the stack (e.g. missing requirements.txt in the deploy root).
+providers = ["python"]
+
+[variables]
+NIXPACKS_PYTHON_VERSION = "3.12"

@@ -1,0 +1,7 @@
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+startCommand = "python bot.py"
+healthcheckPath = "/health"
+healthcheckTimeout = 60

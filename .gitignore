@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Runtime data — do not replace with repo copies when you re-upload (keeps stock & balances).
+data/users.json
+data/catalog.json
+data/bin_leads.json
+data/pending_topups.json
